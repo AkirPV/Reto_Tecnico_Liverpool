@@ -1,0 +1,21 @@
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Hide Appium / HTTP wire logs -->
+    <logger name="karate.http" level="ERROR"/>
+    <logger name="org.apache.http" level="ERROR"/>
+    <logger name="io.appium" level="ERROR"/>
+    <logger name="org.openqa.selenium" level="ERROR"/>
+
+    <!-- Keep project logs -->
+    <logger name="karate.scenario" level="INFO"/>
+    <logger name="karate.runtime" level="WARN"/>
+
+    <root level="WARN">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

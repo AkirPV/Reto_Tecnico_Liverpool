@@ -1,0 +1,13 @@
+target/
+.idea/
+.vscode/
+*.iml
+
+# Local APKs and execution evidence
+src/test/resources/apps/*.apk
+evidence/
+karate-reports/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+{
+  "validUser": {
+    "email": "",
+    "password": "",
+    "cellphone": ""
+  },
+  "store": {
+    "zipCode": "62553",
+    "name": "Liverpool Galerías Cuernavaca"
+  },
+  "products": {
+    "karcher": {
+      "searchText": "Karcher K2",
+      "name": "Hidrolavadora K2 Universal Car Edition",
+      "completeName": "Hidrolavadora Karcher K2 Universal Car Edition",
+      "productId": "1102788261"
+    },
+    "wishlistProduct": {
+      "searchText": "1170575632",
+      "productId": "1170575632",
+      "name": "Aspiradora robot d10 plus gen2 4 litros",
+      "completeName": "Aspiradora robot Dreametech d10 plus gen2 4 litros"
+    }
+  }
+}
