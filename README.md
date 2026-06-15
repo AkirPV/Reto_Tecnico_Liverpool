@@ -160,7 +160,7 @@ mvn test -Dkarate.options="classpath:features/03_login.feature"
 ## Datos de prueba
 
 Los datos de prueba se leen desde:
-
+Porfavor de agregar su usuario y psw validos al archivo, por seguridad omitire los usados ya que apunta a un ambiente real.
 ```text
 src/test/resources/test-data/users.json
 ```
